@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
-import BotonComponent from '../../Components/BotonComponent';
+import BotonComponent from '../../../Components/BotonComponent';
 import { useNavigation } from '@react-navigation/native';
 export default function EditarAsociado() {
   const navigation = useNavigation();

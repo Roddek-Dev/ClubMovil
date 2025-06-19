@@ -1,9 +1,8 @@
-import { createStackNavigator } from "@react-navigation/stack";
-import PantallaLogin from '../../Screen/Auth/Login';
-import PantallaRegistro from '../../Screen/Auth/Registro'; 
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import PantallaLogin from "./Screen/Auth/Login";
+import PantallaRegistro from "./Screen/Auth/Registro";
 
-
-const Stack = createStackNavigator();
+const Stack = createNativeStackNavigator();
 
 export default function AuthNavegacion() {
   return (

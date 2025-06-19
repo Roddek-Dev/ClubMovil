@@ -1,5 +1,5 @@
 import { View, Text, TextInput, Alert } from 'react-native';
-import BotonComponent from '../../Components/BotonComponent';
+import BotonComponent from '../../../Components/BotonComponent';
 import React from 'react';
 
 export default function RegistroScreen({ navigation }) {

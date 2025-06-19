@@ -1,19 +1,18 @@
-import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
-import BotonComponent from '../../Components/BotonComponent';
-import { useNavigation } from '@react-navigation/native';
+import React from "react";
+import { View, Text, StyleSheet } from "react-native";
+import BotonComponent from "../../../Components/BotonComponent";
+import { useNavigation } from "@react-navigation/native";
 export default function DetalleAsociado() {
   const navigation = useNavigation();
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Pantalla de Detalle Asociado</Text>
-     
-        <BotonComponent
-            title="Editar Asociado"
-            onPress={() => navigation.navigate('EditarAsociado')}
-        />
-      
+      <Text style={styles.title}>Pantalla</Text>
+
+      <BotonComponent
+        title="Editar Asociado"
+        onPress={() => navigation.navigate("EditarAsociado")}
+      />
     </View>
   );
 }
